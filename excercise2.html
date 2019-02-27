@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Kalkulator sederhana dengan javascript</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+
+	<div class="kalkulator">
+		<h2 class="judul">Kalkulator sederhana dengan javascript</h2>
+		<form>			
+			<input type="number" id="bil1" name="bil1" class="bil" placeholder="Masukkan Bilangan Pertama">
+			<input type="number" id="bil2" name="bil2" class="bil" placeholder="Masukkan Bilangan Kedua">
+			<select class="opt" id="operasi" name="operasi">
+				<option value="tambah">+</option>
+				<option value="kurang">-</option>
+				<option value="kali">x</option>
+				<option value="bagi">/</option>
+			</select>
+			<button type="submit" name="hitung" value="Hitung" class="tombol" onclick="Hitung()">Hitung</button>											
+		</form>
+	
+			<input type="text"  id="hasil" name="hasil" value="" class="bil">
+	
+	</div>
+</body>
+<script type="text/javascript" src="05.js"></script>
+</html>
